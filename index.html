@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SK PetShop</title>
+  <link rel="icon" href="./assets/logo.jfif">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+  <div class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+    
+    <div class="container-fluid">
+      <nav class="navbar navbar-light bg-warning">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo.jfif" alt="" width="30" height="30">
+          </a>
+        </div>
+      </nav>
+
+      <a class="navbar-brand" href="#"><b>SK PETSHOP</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Variety of Pets
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./additional pages/dogs collections.html">Dogs</a></li>
+              <li><a class="dropdown-item" href="./additional pages/CATS COLLECTIONS.HTML">Cats</a></li>
+              <li><a class="dropdown-item" href="#">Aquarium</a></li>
+              <li><a class="dropdown-item" href="./additional pages/birds collections.html">Birds</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Feeds</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <a href="#" class="btn btn-WARNING" role="button" data-bs-toggle="button" style="margin-right: 480px;"> SIGN IN</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+        
+      </div>
+    </div>
+  
+  </nav>
+</div>
+  <!--carousel-->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/ds3.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dogs can fill a human's heart with love and warmth. And they don't even break a sweat. For some reason, dogs can sniff their way to people who need them.
+          </h5>
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/cs1.jfif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cats are designated friends. Cats choose us; we don't own them. Dare I say, the best gift is the
+            unconditional love of a critter. Deep inside, we're all ...</h5>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/pexels-ilo-frey-2317904.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>“Every bird, every tree, every flower reminds me what a blessing and privilege it is just to be alive.”
+          </h5>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+
+  <!--cards group-->
+  <br>
+
+  <h1 style=" font-family: Arial, Helvetica, sans-serif; text-align: center;"> DOGS COLLECTIONS</h1>
+  <br><br>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/raja.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">RAJAPALAYAM (MALE)</h5>
+          <p class="card-text"> <DEL>RS 10,000</DEL> <ins><B>8,999 ONLY</B></ins></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/dobermen.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">DOBERMEN</h5>
+          <p class="card-text"> <DEL>RS 14,000</DEL><INS><B> RS 10,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/golden retriever.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">GOLDEN RETRIEVER</h5>
+          <p class="card-text"><DEL> RS 35,000</DEL><INS><B>RS 34,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/KANNI1.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">KANNI</h5>
+          <p class="card-text"> <DEL> RS 15,000</DEL><INS><B> RS 12,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/KOMBAI2.jpg" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">kOMBAI</h5>
+          <p class="card-text"> <DEL>RS 10,000</DEL><INS><B> RS 8,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/lab.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">LABRADOR (MALE)</h5>
+          <p class="card-text"><DEL> RS 12,000</DEL><INS> <b>RS 10,000 </b></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/lab.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">LABRADOR(FEMALE)</h5>
+          <p class="card-text"> <DEL>RS 15,000</DEL> <INS> <b>RS 12,000</b></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/dogs/siberian husky.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">SIBERIAN HUSKY</h5>
+          <p class="card-text"><DEL> RS 35,000</DEL><INS> <b>RS 34,000</b></INS></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <a class="btn btn-primary" href="./additional pages/dogs collections.html" role="button">SEE MORE</a>
+  <!--CATS CARDS GROUP-->
+  <BR><br>
+  <H1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">CATS COLLECTIONS </H1> <BR> <BR>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/cats/CHANTILLY TIFFANY CHANTILLY.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">CHANTILLY TIFFANY CHANTILLY</h5>
+          <p class="card-text"><DEL>RS 45,000</DEL> <INS><B>44,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/cats/NEBELUNG.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">NEBELUNG</h5>
+          <p class="card-text"> <DEL>RS 30,000</DEL><INS><b>RS 25,000</b></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/cats/OCICAT.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">OCICAT</h5>
+          <p class="card-text"><DEL> RS 25,000</DEL><INS><b>RS 22,000</b></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/cats/SCOTTISH FOLD.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">SCOTTISH FOLD</h5>
+          <p class="card-text"><DEL>RS 20,000</DEL> <INS><B> RS 21,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="btn btn-primary" href="./additional pages/CATS COLLECTIONS.HTML" role="button">SEE MORE</a>
+  
+  <!--BIRDS CARDS GROUP-->
+  <BR>
+  <H1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">BIRDS COLLECTIONS</H1>
+  <BR> <BR>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/birds/COCKATOOS.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">COCKATOOS</h5>
+          <p class="card-text"><DEL> RS 55,000</DEL><INS><B>54,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/birds/LOVE BIRDS.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">LOVE BIRDS(PAIR)</h5>
+          <p class="card-text"> <DEL>RS 200</DEL> <INS><b>RS 150</b></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/birds/RED PARROT.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">RED PARROT</h5>
+          <p class="card-text"><DEL> RS 55,000</DEL><INS><B>54,000</B></INS></p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/birds/SENEGAL PARROT.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">SENEGAL PARROT</h5>
+          <p class="card-text"><DEL> RS 35,000</DEL><INS><B>30,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <a class="btn btn-primary" href="./additional pages/birds collections.html" role="button">SEE MORE</a>
+
+  <!--AQUARIUM CARDS GROUP-->
+  <BR><BR>
+
+  <H1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">AQUARIUM COLLECTIONS</H1>
+  <BR><BR>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/fishs/BETA.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">BETA FISH(PAIR)</h5>
+          <p class="card-text"> <DEL>RS 150</DEL><INS><B>RS 100</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/fishs/GOLDFISH.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">GOLDFISH(PAIR)</h5>
+          <p class="card-text"><DEL>RS 100</DEL><INS><B>RS 80</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/fishs/GUPPIES.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">GUPPIES (PAIR)</h5>
+          <p class="card-text"><DEL>RS 50</DEL><INS><B>30</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/fishs/MOLLY.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">MOLLY</h5>
+          <p class="card-text"><DEL>RS 100</DEL><INS><B>RS 50</B></INS></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <a class="btn btn-primary" href="./assets/cat silder.jfif" role="button">SEE MORE</a>
+  <!--FEEDS CARDS GROUP-->
+  <BR><BR>
+  <H1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">FEEDS</H1>
+  <BR><BR>
+
+  <diV class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/FOODS/BIRDS FOODS.jfif" class="card-img-top" alt="..." width="100px" height="250px">
+        <div class="card-body">
+          <h5 class="card-title">ZuPreem Fruit Blend Bird Food for Large Birds</h5>
+          <p class="card-text"><DEL>RS 285</DEL> <INS><B> RS 250</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/FOODS/CAT FOODS1.jfif" class="card-img-top" alt="..." width="50px" height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Whiskas 'Ocean Fish Flavour' Adult Cat Dry Food 480</h5>
+          <p class="card-text"><DEL> RS 400</DEL><INS><B>RS 350</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/FOODS/DOG FOODS 1.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">PEDIGREE Complete Nutrition Grilled Steak & Vegetable Dry Dog Food, 18 lb. Bag</h5>
+          <p class="card-text"><DEL> RS 4,200</DEL><INS><B>RS 4,000</B></INS></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/FOODS/FISH FOODS1.jfif" class="card-img-top" alt="..." width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">Optimum Highly Nutritious Food For All Fish</h5>
+          <p class="card-text"><DEL> RS 215</DEL> <INS><B>RS 200</B></INS></p>
+        </div>
+      </div>
+    </div>
+
+  </diV>
+  <br>
+  <a class="btn btn-primary" href="./assets/cat silder.jfif" role="button">SEE MORE</a>
+
+  <!--Q&A-->
+  <BR><BR>
+  <H1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">FREQUENTLY ASKED QUESTIONS</H1>
+  <BR><br>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          1. Is a Doberman dog aggressive?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>The dog is reported to have 600 pounds of pressure in its attack bite – something which makes it a
+            formidable foe.</strong> Because the Dobie is a smart dog, it can be aggressive on command. One
+          nine-year-old boy was killed by a Doberman Pinscher in 2001.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          2. What should be required of pets?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Pets are foundational to human civilization. </strong> Animals were domesticated over 10,000 years
+          ago, and since then, they've served many roles--agricultural ...
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          3. Why do dogs eat grass?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Dogs could be eating grass to compensate for diet deficiencies.</strong> If a dog's diet is lacking
+          vitamins, nutrients, or minerals, they might eat grass to try to get....
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <a class="btn btn-primary" href="./assets/cat silder.jfif" role="button">SEE MORE</a>
+
+  <!--TABLE -->
+  <BR><BR>
+  <H1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;;">VARIETY OF PETS IN SK PETSHOP</H1>
+<BR><BR>
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">S.NO</th>
+        <th scope="col">Dogs</th>
+        <th scope="col">CATS</th>
+        <th scope="col">BIRDS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>WEIMARANER</td>
+        <td>GERMAN SHEPHERD</td>
+        <td>MEYER'S PARROT</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>GERMAN SHEPHERD</td>
+        <td>CHANTILLY</td>
+        <td>RED PARROT</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>LABRADOR RETRIEVER</td>
+        <td>CHANTILLY</td>
+        <td>SINU PAROKEET</td>
+
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>SIBERIAN</td>
+        <td>DEVON REX</td>
+        <td>SENEGAL PARROT</td>
+      </tr>
+
+      <tr>
+        <th scope="row">5</th>
+        <td>HUSKY</td>
+        <td>KORAT</td>
+        <td>COCKATOOS</td>
+      </tr>
+
+      <tr>
+        <th scope="row">6</th>
+        <td>HUSKY</td>
+        <td>MANX</td>
+        <td>FISCHER'S LOVEBIRDS</td>
+      </tr>
+
+      <tr>
+        <th scope="row">7</th>
+        <td>DOBERMEN PINSCHER</td>
+        <td>NEBELUNG</td>
+        <td>CAPE PARROT</td>
+      </tr>
+
+      <tr>
+        <th scope="row">8</th>
+        <td>ROTTWEIIER</td>
+        <td>RUSSIAN BULE</td>
+        <td>CONURES</td>
+      </tr>
+
+      <tr>
+        <th scope="row">9</th>
+        <td>RAJAPALAYAM</td>
+        <td>SCOTTISH FOLD</td>
+        <td>CAIQUES</td>
+      </tr>
+
+      <tr>
+        <th scope="row">10</th>
+        <td>KANNI</td>
+        <td>OCICAT</td>
+        <td>BUDGERIGARS</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  
+
+  
+  
+
+</body>
+
+</html>
